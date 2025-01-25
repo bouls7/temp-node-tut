@@ -8,5 +8,5 @@
 const __=require('lodash');
 
 const items=[1,[2,[3,[4]]]];
-const newItems=__.flattenDeep(items);
+const newItems=__.flattenDeep(items);//hay function bi aleb l lodash bet raje3 l elements bi 1 array
 console.log(newItems);
